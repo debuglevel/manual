@@ -46,6 +46,15 @@ For more information see the :doc:`full changelog <changelog>`.
 
 .. toctree::
    :hidden:
+   :titlesonly:
+   :maxdepth: 1
+   :caption: Billing
+
+   General <billing-general>
+   Bookkeeping <billing-bookkeeping>
+
+.. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: Uberspace 6
 
