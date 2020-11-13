@@ -8,16 +8,33 @@ Servers don't come cheap! While we'd love to give uberspaces away like free
 candy, providing one incures costs that need to be covered. We try our best to
 make the platform accessible to anyone, regardless of their financial means.
 
-Your **first month is always free**. That way you can take your uberspace for a
-spin, install your app, ask us questions and keep it, if any only if, you are
-statisifed. You do not need to enter any payment details during the free month.
+Your **first month is always free** and without any committment. Afterwards you
+can choose, if you'd like to keep your space.
 
-Uberspace is a **prepaid product** with **monthly payment**. This means you
+Uberspace is a **prepaid product** with a **monthly fee**. This means you
 first top-up your virtual account with us. Month after month we deduct the price
-from your funds. If you are not happy, with us, you can cancel at any month.
+from your funds. If you are not happy, with us, **you can cancel at any month**.
 
 To learn more about how much it is and how to top-up your account, please
 read on.
+
+Trial period
+------------
+
+Uberspace is a rather versatile product. To give you a better feel for what you
+can do using one, your **first month is always free**. You do not need to enter
+any payment details during that time. That way you can take your new uberspace
+for a spin, install your app, and ask us questions.
+
+.. note::
+
+  Technically, start charging your uberspace after **at least** one full month
+  has passed. For example, if you sign up on the 13.02., your trial runs until
+  the 31.03., even though that's more than one month.
+
+Towards the end of the trial period, we'll inform you via email. If you're
+statisfied, go ahead and charge up your account to keep it. If you are not,
+just don't do anything and we'll delete it for you. No questions asked.
 
 Price
 -----
@@ -38,38 +55,28 @@ On uberspace you can choose a price that fits your budget:
 
 If none of these options sounds like a good fit for you, you are also free to
 choose a price that works below 5€ or above 15€ on the `Accounting page
-<dashboardaccount>`_.
+<dashboardaccount_>`_.
 
 However, **the service always stays the same**: We do not shape down traffic of
 users, who aren't able to pay a lot of money, or allocate more CPU to users, who
 pay more than others. We also strive to answer each support request equally.
 
-Service
+Storage
 -------
 
-Your uberspace comes with ...
+Each uberspace comes with **10GB of storage** out of the box. If you need to store
+more data than that, head over to the `Accounting page <dashboardaccount_>`_ to
+add more storage to your space. Each increment of 10GB is 3.00€.
 
-* ... **10GB+** of Storage to store your app and all your data
-* ... direct access via **SSH** and **SFTP** for easy and secure setup
-* ... as many externally registerd **domains** as you want
-* ... **free HTTPS** via Let's Encrypt for all of your domains
-* ... 7 daily and 7 weekly **backups** so you don't have to worry about losing data
-* ... a sweet, short **subdomain** ``<username>.uber.space``
+.. note::
 
-Finally, the biggest perk: our support, staffed with people, who know what they
-are doing.
-
-Additional Storage
-------------------
-
-Each uberspace comes with 10GB of storage out of the box. If you need to store
-more data than that, head over to the `Accounting page <dashboardaccount>`_ to
-add more storage to your space.
+  Our storage feature is quite new! Therefore we can currently only offer up to
+  20 GB for each account. In the near future, we'll expand this to 100 GB.
 
 Payment Methods
 ---------------
 
-We currently offer **two types of payment**. In any case, money is stored in
+We currently offer **three types of payment**. In any case, money is stored in
 your virtual account. As you go, we substract your choosen price from the
 balance.
 
@@ -85,7 +92,7 @@ SEPA Bank Transfer
 ==================
 
 If you are living within the EU or rather the Single Euro Payments Area (SEPA),
-the easiest way to top-up your account is using a **classic wire transfer**.
+the most common way to top-up your account is using a **classic wire transfer**.
 
 ::
 
@@ -107,12 +114,20 @@ respective amounts (e.g. ``uberspace isa 10 bella 20`` for a 30€ transfer).
   your accout for a standing order ("Dauerauftrag") and cancel it. Afterwards,
   you can get a refund.
 
+.. tip::
+
+  If your transfer does not show within 3 business days, don't panic! In some
+  cases the reference gets mangled in transfer. Have a look at the the
+  `open transfers page <dashboardopentransfers_>`_ to manually assign the
+  transfer to your account. If you are not able to locate your transfer in the
+  list, `contact us <support_>`_.
+
 Credit Card
 ===========
 
 If you do not have a SEPA bank account, you can also pay via credit card. To
 top-up your account that way, sign into the web interface and navigate to the
-"Prepay by Credit Card" section on the `Accounting page <dashboardaccount>`_.
+"Prepay by Credit Card" section on the `Accounting page <dashboardaccount_>`_.
 From there, you'll be taken to `Stripe <https://stripe.com>`_, our payment
 provider. We won't see or process your credit card information.
 
@@ -122,17 +137,32 @@ provider. We won't see or process your credit card information.
   account each month or transfer funds for more than a month, e.g. a quarter or
   a whole year.
 
+Cash
+====
+
+If you prefer cold, hard cash, we've got you covered as well. Put your cash into
+an envelope, note your username inside and mail it to the address stated in our
+`imprint <imprint_>`_. Once we get your letter, we'll charge up your account
+and inform you via email.
+
+.. note::
+
+  We only experience very few cases of missing envelopes or cash. Nevertheless,
+  sending money through the postal system isn't the most reliable thing. If you
+  suspect that you letter got lost, `drop us a line <support_>`_ and we'll figure
+  something out.
+
 Refunds
 -------
 
 If you'd like to get unused balance back into your bank account, navigate to the
-"Refund Credit Balance" section on the `Accounting page <dashboardaccount>`_.
+"Refund Credit Balance" section on the `Accounting page <dashboardaccount_>`_.
 Please note that due to money laundering laws, we can only refund money to the
 person that originally transferred it to us. A refund typically only takes a few
-days. Feel free to `contact us <mailto:hallo@uberspace.de>`_ with any questions.
+days. Feel free to `contact us <support_>`_ with any questions.
 
-Defaulting on your Payment
---------------------------
+What happens when you stop paying
+---------------------------------
 
 If your account is going to run out of funds, we will notify you via email.
 Should the account still be empty by the time we try to charge it, we'll send
@@ -143,17 +173,18 @@ account has been for multiple months without payment, we delete the stored data.
 We will not come after your for the missing money, but would highly appriciate
 it, if you restored your account to a positive or 0€ balance.
 
-Freezing accounts
------------------
+Borrowing money
+===============
 
-An uberspace cannot be frozen or paused, because storage is one of our biggest
-cost factors. Freezing it for free, but still retaining your data would cost us
-money, which we then cannot invest in new hardware and cool colleagues, sorry.
+Once your account has been deactivated, you can reactivate it by borrowing money
+in the `web interface <dashboard_>`_. Please return the money after you
+transfered additional funds. We do not automatically deduct it from your
+balance. Also, note that cannot borrow additional money, if you already owe us.
 
 Cancelation
 -----------
 
-If you'd like to delete your account permanently, navgiate to the `delete page <dashboarddelete>`_
+If you'd like to delete your account permanently, navgiate to the `delete page <dashboarddelete_>`_
 in the web interface. Please contact us before deleting your account. Most of
 the time, we're able to accommodate you by installing additional software or
 delaying an open payment.
@@ -162,5 +193,16 @@ If you do not have access to your account anymore and would like to delete it,
 just stop paying for it. We will delete it automatically after some time has
 passed.
 
+.. note::
+
+  An uberspace cannot be frozen or paused, because storage is one of our biggest
+  cost factors. Freezing it for free, but still retaining your data would cost
+  us money, which we then cannot invest in new hardware and cool colleagues,
+  sorry.
+
+.. _dashboard: https://dashboard.uberspace.de
 .. _dashboardaccount: https://dashboard.uberspace.de/dashboard/accounting
 .. _dashboarddelete: https://dashboard.uberspace.de/dashboard/delete
+.. _dashboardopentransfers: https://dashboard.uberspace.de/dashboard/accounting/open_transfers
+.. _imprint: https://uberspace.de/imprint
+.. _support: mailto:hallo@uberspace.de
